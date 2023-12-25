@@ -8,7 +8,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(173, 114, 173, 0.8),rgba(163, 183, 82, 0.8)), url(iit1.jpg);
+    background-image: linear-gradient(rgba(173, 114, 173, 0.8),rgba(163, 183, 82, 0.8)), url(/images/iit1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
