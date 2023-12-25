@@ -45,13 +45,16 @@
     transform: translate(-50%);
 }
 
-.input-group{
+.input-field{
     background: #cfbfbf;
     margin: 15px 0px;
     border-radius: 2px;
     display: flex;
     align-items: center;
     color: rgb(89, 14, 99);
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
 }
 
 input{
