@@ -44,3 +44,63 @@
     left: 50%;
     transform: translate(-50%);
 }
+
+.input-group{
+    background: #cfbfbf;
+    margin: 15px 0px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: rgb(89, 14, 99);
+}
+
+input{
+    background: #ad9aa7;
+    width: 143.5%;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    font-size: 16px;
+}
+
+.input-field::placeholder{
+    font-size: xx-large;
+}
+
+input::placeholder{
+    font-size: 16px;
+    color: black;
+}
+
+form p{
+    text-align: left;
+    font-size: 14px;
+}
+
+form p a{
+    text-decoration: none;
+    color: rgb(224, 224, 34);
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button{
+    flex-basis: 48%;
+    background-color: #ad9aa7;
+    color: black;
+    border-radius: 15px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.btn-field button.disable{
+    background: #cfbfbf;
+    color: black;
+}
